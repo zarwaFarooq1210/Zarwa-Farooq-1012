@@ -1,0 +1,26 @@
+
+body{
+      font-family: "Lobster", sans-serif;
+      background: rgb(222, 12, 128);
+      color: brown;
+}
+
+.box{
+background: pink;
+height: 500px;
+width: 500px;
+border-style: solid;
+border-color: purple;
+border-width: 10px;
+margin-left: 250px;
+margin-top: 50px;
+font-size: 10px;
+
+
+padding-left: 250px;
+
+}
+.content{
+    color: black;
+}
+
