@@ -1,0 +1,19 @@
+
+body{
+    font-family: "Lobster", sans-serif;
+}
+.params{
+    background: red;
+    font-size: 25px;
+    color: black ;
+}
+.intro{
+    background: aqua;
+    font-size: 25px;
+    color: brown;
+}
+.profession{
+    background: pink;
+    font-size: 25px;
+    color: blue;
+}
