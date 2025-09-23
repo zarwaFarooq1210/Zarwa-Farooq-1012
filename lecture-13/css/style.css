@@ -1,0 +1,38 @@
+
+body{
+    background: silver;
+}
+.box{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background: pink;
+    border: 8px solid black;
+    padding: 40px;
+    margin-left: 630px;
+    margin-top: 150px;
+    position:absolute;
+    z-index: 101;
+    
+
+
+}
+.container{
+
+    height: 350px;
+    width: 300px;
+    padding: 40px;
+    background: aqua;
+    border: 8px solid black;
+    margin-left: 400px;
+    margin-top: 100px;
+    margin-bottom: 800px;
+    position: relative;
+    z-index: 90;
+}
+
+
+
+
+
+   
