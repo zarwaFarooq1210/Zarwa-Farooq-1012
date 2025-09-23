@@ -1,0 +1,51 @@
+
+:root{
+    --blue-color:rgb(50, 67, 174);
+    --orange-color:rgb(240, 85, 29);
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background:white;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.bg-primary{
+    background: var(--blue-color);
+}
+
+.bg-secondary{
+    background: var(--orange-color);
+}
+
+.text-white{
+    color: black;
+}
+
+.btn-main{
+    padding: 15px;
+    margin: 15px;
+    background: var(--blue-color);
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: var(--blue-color);
+}
+.btn-main:hover{
+    background: var(--orange-color);
+    border-color: var(--orange-color);
+}
+
+.w-50{
+    width:50%;
+    height: 300px;
+}
+
+
