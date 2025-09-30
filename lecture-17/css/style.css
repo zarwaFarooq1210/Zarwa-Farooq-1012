@@ -18,14 +18,40 @@
 }
 
 .logo{
-    font-size: 20px;
-    font-weight: 300;
-    font-family: sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    gap: 30px;
+
+
+   
+}
+.btn{
+    color:black;
+    background: blue;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    height: 40px;
+    width: 50px;
+    padding: 13px;
+    margin: 15px;
+
+}
+.btn:hover{
+    background: green;
+}
+nav a{
+    text-decoration: solid;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 300px;
-   
+
 }
 
 
