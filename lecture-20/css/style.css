@@ -1,0 +1,89 @@
+
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-weight: 900;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+}
+.main{
+    background-image: url(lunnchbox.webp);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+    background-size: cover;
+    padding-top: 100px;
+    padding-left: 200px;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn-1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: blue;
+    border-radius: 20px;
+    font-weight: 700;
+}
+.btn-1:hover{
+    background: rgb(196, 17, 77);
+}
+
+.about-us{
+    background-image: url(cover3.webp);
+    background-repeat: no-repeat;
+   min-height: 100vh;
+   font-weight: 700;
+   font-family: 'Times New Roman', Times, serif;
+   
+
+    
+
+    
+
+}
+
+
+    
+   
+.paragraph{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 300;
+    padding-left:500px;
+     
+}
+.heading{
+    margin-left: 500px;
+    border-style: solid;
+    border-color: black;
+    color: black;
+}
+
+
+   
+
+
+    
+
+
