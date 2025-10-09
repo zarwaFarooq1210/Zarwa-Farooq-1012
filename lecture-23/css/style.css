@@ -1,0 +1,68 @@
+
+.container{
+    display: flex ;
+    align-items: center ;
+    justify-content: center;
+    gap: 30px;
+}
+
+.intro h1{
+     position: relative;
+     padding-left: 100px;
+     margin-top: 90px;    
+}
+
+.intro h1::before{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    position: absolute;
+    content:"" ;
+   justify-content: space;
+    background:blue;
+    height: 3px;
+    margin: 40px;
+    left: 0%;
+    margin-left: 400px;
+    width: 70px;
+}
+
+ .icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+ .card-body{
+        transition: all 0.5s ease;
+        margin: 20px;
+    }
+
+.card-body:hover{
+        background: rgb(196, 10, 128);
+        
+    }
+    
+.social-icons{
+        font-size: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+.social-icons{
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(5, 230, 230);
+        border: rgb(5, 230, 230);
+        margin-left: 50px;
+     }
+
+    
