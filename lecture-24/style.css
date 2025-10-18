@@ -1,0 +1,259 @@
+
+.nav-link{
+    color: black;
+    margin: 20px;
+}
+.intro h6{
+     
+     color: red;
+     font-size: 20px;
+     margin-left: 200px;
+     
+}
+
+.intro h6::before{
+    position: absolute;
+    content:"" ;
+    background:#eb566c;
+    height: 3px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    left: 0;
+    margin-left: 130px;
+}
+.intro h1{
+    font-weight: 900;
+    font-size: 60px;
+    margin-left: 120px;
+
+
+}
+.intro p{
+    margin-left: 120px;
+}
+.btn-1{
+    height: 50px;
+    width: 150px;
+    letter-spacing: 1px;
+    background: red;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 0;
+    color: white;
+    margin-left: 120px;
+    transition: all 0.5s ease;
+    border: red;
+
+}
+.btn-1:hover{
+    background: blue;
+}
+.heading h3{
+    font-size: 50px;
+    font-weight: 600;
+    color:  #092c3f;
+
+
+
+
+}
+.container{
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    
+}
+.image{
+    height: 500px;
+    width:600px;
+    top: 0;
+    margin-top: 90px;
+    margin-bottom: 90px;
+
+}
+.paragraph h3 {
+    margin-top: 170px;
+    
+    margin-left: 120px;
+    
+}
+.paragraph h3::before  {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    left: 0;
+    margin-left: 700px;
+}
+.heading h1{
+    margin-left: 50px;
+}
+
+.btn-2{
+    height: 50px;
+    width: 200px;
+    background: red;
+    color: white;
+    border: red;
+    background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+.btn-2:hover{
+    background: #8c026e;
+    border: #8c026e;
+}
+
+.para p{
+    font-size: 20px;
+    color: #eb566c;
+    margin-left: 60px;
+    
+
+}
+.para::before{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 50px;
+    background-color: #ba0d1b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.members p{
+    margin-left: 90px;
+}
+.members p::before{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 50px;
+    background-color: #ba0d1b;
+    left: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.card-2{
+    height: 90px;
+    width: 500px;
+    background-color: rgb(245, 243, 240);
+    position: absolute !important;
+    
+}
+.card-3{
+    height: 90px;
+    width: 360px;
+    background-color: rgb(245, 243, 240);
+    position: absolute;
+    
+}
+.img-9{
+    position: relative;
+
+}
+.card-body p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eb566c;
+}
+.card-body p::before{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 50px;
+    background-color: #eb566c;
+    left: 0;
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-us{
+    background-image: url(https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/section_bg03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+
+}
+.btn-3{
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    margin-left: 1000px;
+    background-color: black;  
+}
+.last{
+    background-image: url(https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/footer_bg.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.email{
+    font-family: sans-serif;
+    color: white;
+    margin-left: 20px;
+    border-color: white;
+    font-family: sans-serif;
+}
+.btn-4{
+    height: 50px;
+    width: 120px;
+    color: white;
+    margin-left: 20px;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    
+
+}
+.icons{
+    color: white;
+    margin-left: 1130px;
+    margin-bottom: 90px;
+    font-size: 20px;
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #eb566c;
+    margin-top: 20px;
+}
+.card-text p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+}
+.card-body1{
+        transition: all 0.5s ease;
+        margin: 10px;
+    }
+
+.card-body1:hover{
+        background:blue ;
+        
+    }
+    
+
+    
+    
+   
