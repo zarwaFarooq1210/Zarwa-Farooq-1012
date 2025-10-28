@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js programs</title>
+</head>
+<body>
+    <h1> Programs</h1>
+
+
+
+
+
+
+
+   <script>
+                         /* if else */
+
+    
+
+
+    // EVEN AND ODD
+    let no = 45;
+    if (no%2==0){
+        console.log(no,"number is even");
+    }else{
+        console.log( no,"number is odd");
+
+    }
+
+    //AGE
+    let age = 19;
+    if (age>=18){
+        console.log("user is eligible to cast the vote");
+    }else{
+        console.log("user is not eligible to cast the vote");
+    }
+
+    //POSITIVE or NEGATIVE
+    let number = 67;
+    if(number>0){
+        console.log("Entered number is positive");
+    }else{
+        console.log("Entered number is negative");
+
+    }
+
+    //DIVISIBLE by 5
+    let num = 45;
+    if(num%5==0){
+        console.log("Number is divisible by 5");
+    }else{
+        console.log("Number is not divisible by 5");
+    }
+
+    //PASSWORD
+    let storedpassword = 1234;
+    let enterpassword =908;
+    if(storedpassword==enterpassword){
+        console.log("password matched");
+    }else{
+        console.log("password not matched");
+    }
+
+
+                              /* iF-else-if */
+
+     //GRADES
+    let marks =72;
+    if(marks>=90){
+        console.log("your grade is A");
+    }
+    else if(marks>=80){
+    console.log("your grade is B");
+    }
+    else if(marks>=70){
+        console.log("your grade is C");
+    }
+    else if(marks>=60){
+        console.log("your grade is D");
+    }else{
+        console.log("your grade is F")
+    }
+
+    //MONTH NAME
+    let month=10;
+
+    if(month==1){
+        console.log("January");
+    }
+    else if(month==2){
+        console.log("February");
+    }
+    else if(month==3){
+        console.log("March");
+    }
+    else if(month==4){
+        console.log("April");
+    }
+    else if(month==5){
+        console.log("May");
+    }
+    else if(month==6){
+        console.log("June");
+    }
+    else if(month==7){
+        console.log("July");
+    }
+    else if(month==8){
+        console.log("August");
+    }
+     else if(month==9){
+        console.log("September");
+    }
+     else if(month==10){
+        console.log("October");
+    }
+     else if(month==11){
+        console.log("November");
+    }else{
+        console.log("December");
+    }
+
+    //TEMPERATURE
+    let temp = 26;
+    if(temp<10){
+        console.log("Cold");
+    }
+    else if(temp<=10 | temp>=25){
+
+         console.log("Warm");
+         
+    }else{
+         console.log("Hot");
+    }
+
+    // VOWEL, CONSONANT, DIGIT, SPECIAL SYMBOL
+    let ch = '@';
+    if(ch=='a' | ch=='e' | ch=='i' | ch=='o' | ch=='u'){
+        console.log("Entered character is vowel");
+    }
+    else if(ch>='a' && ch<='z'){
+         console.log("Entered character is consonant");
+    }
+
+     else if(ch>='0' && ch<='9'){
+        console.log("Entered number is digit");
+    }else{
+        console.log("Entered number is special symbol");
+    }
+
+    //Largest of three numbers
+
+    let p =78;
+    let q =67;
+    let r =34;
+    if(p>q && p>r){
+        console.log("p is largest number");
+    }
+    else if(q>p && q>r){
+        console.log("q is largest number");
+    }else{
+        console.log("r is largest number");
+    }
+    
+
+
+
+                          /* Switch case */
+      //Days of Week
+    let day = 7;
+    switch (day){
+        case 1:
+            console.log("Monday");
+            break;
+            case 2:
+            console.log("Tuesday");
+            break;
+            case 3:
+            console.log("Wednesday");
+            break;
+            case 4:
+            console.log("Thursday");
+            break;
+            case 5:
+            console.log("Friday");
+            break;
+            case 6:
+            console.log("Saturday");
+            break;
+            default:
+          console.log("Sunday");
+
+    }
+
+    //Spring , Summer, Winter, Autumn
+
+    let nom =4;
+    switch(nom){
+        case 1:
+         console.log("Spring");
+         break;
+        case 2:
+        console.log("Summer");
+         break;
+        case 3:
+        console.log("Autumn");
+         break;
+         default:
+         console.log("Winter");
+
+    }
+
+    // Traffic light colour
+    let color ="yellow";
+    switch(color){
+        case "red":
+            console.log("stop");
+            break;
+            case "yellow":
+            console.log("Get ready to stop");
+            break;
+            case "green":
+            console.log("stop");
+            break;
+            default:
+            console.log("color not matched");
+            
+    }
+
+    // Corresponding remarks
+    let grade ='C';
+    switch(grade){
+        case 'A':
+         console.log("Excellent");
+         break;
+         case 'B':
+         console.log("Well done");
+         break;
+         case 'C':
+         console.log("Best");
+         break;
+         case 'D':
+         console.log("Good");
+         break;
+         case 'E':
+         console.log("Better");
+         break;
+         case 'F':
+        console.log("Need more hard work");   
+         default:
+         console.log("Case not matched");
+
+    }
+
+    // +, -, *, %
+    let a=60;
+    let b=40;
+    let oper = '-';
+    switch (oper){
+        case '+':
+         console.log(a+b) ;
+            break;
+             case '-':
+            console.log(a-b);
+            break;
+             case '*':
+            console.log(a*b);
+            break;
+             case '/':
+            console.log(a/b);
+            break;
+            default:
+                console.log("operator not matched");
+
+
+    }
+
+                            /* Ternary Operator */
+
+
+         // Positive or Negative
+        let n = -20;
+         (n>0 ? console.log("Number is positive") : console.log("Number is negative")) ;
+
+               
+               
+         //Leap year or not
+         let year = 2025;
+         (year%4==0 ? console.log(year , "Leap year"): console.log( year, "Not a leap year"));
+
+
+
+         //Pas or Fail
+         let Marks = 30;
+         (Marks>=40 ? console.log("You are passed") : console.log("You are not passed"));
+
+
+         //Largest Number
+          let x = 80;
+          let y = 50;
+         (x>y ? console.log("x is greater than y ") : console.log("y is greater than x"));
+
+
+         // Uppercase or Lowercase
+          let char = 'n';
+         (char>='A' && char<='Z' ? console.log("uppercase") : console.log("lowercase"));
+
+               
+               
+ 
+    
+
+
+
+
+    
+
+
+
+
+   </script> 
+</body>
+</html>
