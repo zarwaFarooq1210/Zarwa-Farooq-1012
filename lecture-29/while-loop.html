@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>while loop programs</title>
+  
+</head>
+<body>
+  <h1> While loop programs </h1>
+   
+          
+
+
+
+<script>
+                /* Numbers from 1 to 10 */
+  let n = 1;
+  while(n<=10){
+    console.log(n);
+    n++;
+  }
+   
+             /* sum of numbers from 1 to 10 */
+           let z = 1;      
+          let sum = 0;     
+        while (z <= 50) {
+        sum = sum + z; 
+         z++;           
+        }
+     console.log("Sum of numbers from 1 to 50 is:", sum);
+     
+
+           /* Numbers in descending order from 20 to 1  */
+           let y = 20;
+           while(y>=1){
+            console.log(y);
+            y--;
+           }
+
+           /* Table of 7 */
+
+           let i = 1;            
+         let number = 7;         
+       while (i <= 10) {       
+    console.log(`${number} x ${i} = ${number * i}`);
+       i++;                  
+     }
+      
+
+     /* enter number between 1 and 10 from user */
+
+
+     let num = prompt("Enter a number between 1 and 10:");
+     while (num < 1 || num > 10 || isNaN(num)) {
+    number = prompt("Invalid input! Please enter a number between 1 and 10:");
+   }
+
+    console.log("You entered a valid number:", num);
+
+
+
+
+
+    
+
+
+</script>
+</body>
+</html>
